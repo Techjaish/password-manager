@@ -1,0 +1,13 @@
+/* Write your code here. */
+.list-style {
+  padding-right: 5px;
+}
+.thumbnailImg {
+  height: 30px;
+  width: 30px;
+}
+.button {
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+}

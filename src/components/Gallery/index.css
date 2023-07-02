@@ -1,0 +1,27 @@
+/* Write your code here. */
+.main-container {
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+}
+.image {
+  width: 100%;
+}
+.heading {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: normal;
+}
+.paragraph {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: lighter;
+}
+.list-container {
+  display: flex;
+  max-width: 300px;
+  list-style-type: none;
+}
