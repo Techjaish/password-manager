@@ -3,7 +3,7 @@ import './index.css'
 
 const ThumbnailItem = props => {
   const {eachItem, updateState} = props
-  const {id, thumbnailUrl, thumbnailText} = eachItem
+  const {id, thumbnailUrl, thumbnailAltText} = eachItem
   const onClickButton = () => {
     updateState(id)
     console.log('button clicked')
@@ -11,12 +11,11 @@ const ThumbnailItem = props => {
 
   return (
     <li className="list-style">
-      <button className="button" type="button">
+      <button className="button" type="button" onClick={onClickButton}>
         <img
           src={thumbnailUrl}
           className="thumbnailImg"
-          alt={thumbnailText}
-          onClick={onClickButton}
+          alt={thumbnailAltText}
         />
       </button>
     </li>
